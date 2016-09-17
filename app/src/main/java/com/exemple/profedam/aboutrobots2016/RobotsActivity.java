@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 public class RobotsActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private int numeroVeces = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +24,6 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
 
-       int numeroVeces = 0;
-
 
 
         if (v.getId()==R.id.btnnotocar)
@@ -32,8 +32,8 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
             numeroVeces ++;
             if (numeroVeces == 1) {
                 TextView textView = (TextView) findViewById(R.id.textView);
-                textView.setText("Parece que los humanos no son muy inteligentes");
-                btnNoTocar.setText("Que No me toques!!!!!!!!!");
+                textView.setText(R.string.TextView2);
+                btnNoTocar.setText(R.string.Button2);
             }
             else {
                 //Para ocultar un botón

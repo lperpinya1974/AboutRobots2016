@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AboutRobots2016</string>
+    <string name="bienvenidos_humanos_este_es_un_test_de_inteligencia_para_humanos">Bienvenidos Humanos! Este es un test de inteligencia para humanos</string>
+    <string name="no_tocar">No tocar!!!!</string>
+    <string name="TextView2">Parece que los humanos no son muy inteligentes</string>
+    <string name="Button2">Que No me toques!!!!!!!!!</string>
+    <string name="alt_imatge">imatge d\'un robot</string>
 </resources>
