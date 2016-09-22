@@ -34,7 +34,7 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
                 TextView textView = (TextView) findViewById(R.id.textView);
                 textView.setText(R.string.TextView2);
                 btnNoTocar.setText(R.string.Button2);
-            }
+                            }
             else {
                 //Para ocultar un botón
                 btnNoTocar.setVisibility(View.INVISIBLE);
