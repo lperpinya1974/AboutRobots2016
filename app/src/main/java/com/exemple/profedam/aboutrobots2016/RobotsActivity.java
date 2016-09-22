@@ -25,6 +25,9 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
 
 
+/* Comprobamos primero que botón se ha pulsado
+*/
+
 
         if (v.getId()==R.id.btnnotocar)
         {
@@ -42,7 +45,7 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
 
 
         }
-//Para ocultar un botón
+
 
 
 
