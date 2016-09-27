@@ -15,7 +15,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bienvenidos_humanos_este_es_un_test_de_inteligencia_para_humanos"
+        android:text="@string/texto_inicial"
         android:layout_alignParentTop="true"
         android:layout_alignEnd="@+id/btnnotocar" />
 
@@ -33,7 +33,7 @@
         android:layout_marginEnd="27dp" />
 
     <Button
-        android:text="@string/no_tocar"
+        android:text="@string/btn_inicial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
@@ -41,5 +41,16 @@
         android:layout_below="@+id/imageView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="13dp" />
+
+    <ImageButton
+        android:contentDescription = "@string/alt_boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/btnexit" />
 
 </RelativeLayout>
