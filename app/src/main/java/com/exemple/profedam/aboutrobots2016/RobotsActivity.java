@@ -68,7 +68,6 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
             // Log.i ("0", "numeroVeces = 0");
             }
 
-
             if (numeroVeces == 1) {
 
                 textView.setText(R.string.texto_intermedio);
@@ -76,8 +75,6 @@ public class RobotsActivity extends AppCompatActivity implements View.OnClickLis
                 imageRobot.setImageResource(R.mipmap.robot_enfadado);
 
                 //  Log.i("1", "numeroVeces = 1");
-
-
             }
             if (numeroVeces == 2) {
                 //Para ocultar un botón
